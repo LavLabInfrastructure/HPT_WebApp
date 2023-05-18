@@ -846,7 +846,7 @@ class App extends React.Component {
                 temp_sift_points = [0];
             }
 
-            const response = await fetch("http://localhost:5000/python", {
+            const response = await fetch("http://localhost:5000/inference", {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',

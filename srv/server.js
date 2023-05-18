@@ -29,7 +29,7 @@ let siftRunning = true;
 console.log("spawned sift process");
 
 
-app.post('/python', (req, res) => {
+app.post('/inference', (req, res) => {
     /**
      * Endpoint to handle inference requests
      */
