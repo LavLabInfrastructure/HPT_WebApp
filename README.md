@@ -11,7 +11,7 @@
 8. Use your IDE to launch public/index.html
 9. Enjoy looking at prostates :)
 
-## Note on Running
+## Notes on Running
 - Loading images, then points, then executing inference will run result in the HPT running inference on the histology points from the .csv file.
 - Loading images, then points, then running the sift function, then executing inference will run result in the HPT running inference on the sift points.
 - *Note*: In order to run inference, you must first load a set of points. The max and min of the X and Y coordinates are used to center both prostates, which is neccesary to get good results out of the HPT. However, you can technically remove the centering functions from the inference.py script, allowing you run inference on sift points without loading in point pairs (The results just may not be great).
